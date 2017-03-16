@@ -11,6 +11,7 @@ CREATE TABLE users
 (
   user_id bigint NOT NULL,
   name character varying(256) NOT NULL,
+  description character varying(256),
   CONSTRAINT users_primary PRIMARY KEY (user_id)
 )
 WITH (
